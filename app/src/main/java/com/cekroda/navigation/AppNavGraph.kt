@@ -28,6 +28,7 @@ fun AppNavGraph(navController: NavHostController) {
                 },
                 onInspectionClick = {
                     throw RuntimeException("Test Crash")
+                    throw RuntimeException("Test Crash")
                     // TODO: navigasi ke detail inspection
                 }
             )
